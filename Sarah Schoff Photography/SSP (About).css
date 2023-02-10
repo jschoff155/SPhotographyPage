@@ -1,0 +1,57 @@
+#mainTitle {
+    text-align: center;
+    color:brown;
+}
+h1{
+    font-size:50px;
+}
+p{
+    font-size:20px;
+}
+#topNav {
+    text-align: center;
+    background-color: brown;
+}
+/* END OF TOP TITLE AND NAVIGATION */
+/* START OF ABOUT INFO CSS SPECIFICS*/
+
+.whoIamSection {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap:10px;
+}
+.whoIAmText {
+    font-size: 30px;
+    align-content: center;
+}
+.myMissionSection {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap:10px;
+}
+.myMissionText {
+    font-size: 30px;
+    align-content: center;
+}
+.myFamilySection {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap:10px;
+}
+.myFamilyText {
+    font-size: 30px;
+    align-content: center;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+    display:inline-block;
+    margin: 20px
+}
+a{
+    text-decoration: none;
+    color:black;
+}
