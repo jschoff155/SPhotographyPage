@@ -1,4 +1,13 @@
-
+#mainTitle{
+    text-align: center;
+    color:brown;
+}
+#mainTitle p {
+    font-size:20px;
+}
+#mainTitle h1 {
+    font-size:50px;
+}
 #topNav {
     text-align: center;
     background-color: brown;

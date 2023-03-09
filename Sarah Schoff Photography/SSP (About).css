@@ -1,26 +1,26 @@
-#mainTitle {
+* {
+    box-sizing: border-box;
+  }
+  
+p {
+    font-size: 30px;
     text-align: center;
-    color:brown;
 }
-h1{
-    font-size:50px;
+.bio, .mission, .fam{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:20px;
+    padding:20px;
 }
-p{
-    font-size:20px;
+.bioPhoto {
+    width: 33%;
+    float:left;
 }
-#topNav {
-    text-align: center;
-    background-color: brown;
+.bioText {
+    width: 67%;
+    float: left;
 }
-/* END OF TOP TITLE AND NAVIGATION */
-/* START OF ABOUT INFO CSS SPECIFICS*/
 
-.whoIamSection {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    column-gap:10px;
-}
 .whoIAmText {
     font-size: 30px;
     align-content: center;
@@ -44,14 +44,4 @@ p{
 .myFamilyText {
     font-size: 30px;
     align-content: center;
-}
-li {
-    list-style: none;
-    text-decoration: none;
-    display:inline-block;
-    margin: 20px
-}
-a{
-    text-decoration: none;
-    color:black;
 }
