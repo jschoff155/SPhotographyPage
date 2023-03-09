@@ -1,47 +1,24 @@
 * {
     box-sizing: border-box;
   }
-  
+
 p {
     font-size: 30px;
-    text-align: center;
 }
-.bio, .mission, .fam{
+img{
+    height:400px;
+    width:400px;
+}
+#bio, #mission, #fam{
     display:grid;
     grid-template-columns: auto auto;
     gap:20px;
     padding:20px;
+    text-align:left;
 }
-.bioPhoto {
-    width: 33%;
+.Photo{
     float:left;
 }
-.bioText {
-    width: 67%;
-    float: left;
-}
-
-.whoIAmText {
-    font-size: 30px;
-    align-content: center;
-}
-.myMissionSection {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    column-gap:10px;
-}
-.myMissionText {
-    font-size: 30px;
-    align-content: center;
-}
-.myFamilySection {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    column-gap:10px;
-}
-.myFamilyText {
-    font-size: 30px;
-    align-content: center;
+.Text{
+    float:left;
 }
